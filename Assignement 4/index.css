@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(0, 128, 64, 0.476);
+}
+
+
+
+@media (max-width:425px){
+    body{
+        background-color: red;
+    }
+    body::after{
+        content: "Screen size : 425px";
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    body{
+        background-color: aqua;
+    }
+    body::after{
+        content: "Screen size : 768px";
+    }
+}
+@media (min-width:768px )and (max-width:1024px){
+    body{
+        background-color: rgba(128, 92, 0, 0.906);
+    }
+    body::after{
+        content: "Screen size : 1024px";
+    }
+}
+@media (min-width:1024px)and (max-width:1440px){
+    body{
+        background-color: green;
+    }
+    body::after{
+        content: "Screen size : 1440px";
+    }
+}
+@media  (min-width:1440px){
+    body{
+        background-color: green;
+    }
+    body::after{
+        content: "Screen size : 1440px";
+    }
+}
+
